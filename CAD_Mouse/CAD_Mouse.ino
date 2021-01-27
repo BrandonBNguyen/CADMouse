@@ -1,7 +1,6 @@
 #include <Mouse.h>
 #include <Keyboard.h>
 #include <math.h>
-#include <StackArray.h>
 
 // Pin Definitions
 #define joy_VRy A1
