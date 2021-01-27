@@ -4,6 +4,8 @@
 
 I took on this project because the middle mouse button on my mouse doesn't work well and if you're familiar with Solidworks and many other CAD software, the middle mouse button is often used to rotate, pan, and roll the model you are viewing. Manipulating the view of a CAD model without a functioning middle mouse button can be quite frustrating so I took on the task of developing a separate controller I could use specifically for performing these functions.
 
+![project showcase](https://github.com/BrandonBNguyen/CADMouse/blob/master/Images/showcase.gif)
+
 ## Part Selection
 
 ### Sensor Selection
