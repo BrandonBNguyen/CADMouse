@@ -30,15 +30,15 @@ From preliminary testing with an Arduino Uno (which was unable to stimulate keyb
 
 I started the design by importing existing CAD models of the electronic components into Solidworks and drawing  a rudimentary sketch of their placements relative to each other, being sure to take into account the clearances required of the Dupont wire connections to the sensor and board pins.
 
-![Preliminary placement sketch](https://github.com/BrandonBNguyen/CADMouse/blob/master/Images/PreliminarySketch.png)
+![Preliminary placement sketch](https://github.com/BrandonBNguyen/CADMouse/blob/master/Images/PreliminarySketch.PNG)
 
 After fully defining and determining their placements, I modeled a case that would hold all the components in place via fasteners and provide an opening at the end for the micro USB port on the Arduino Micro. 
 
-![Case Model](https://github.com/BrandonBNguyen/CADMouse/blob/master/Images/BottomCase.png)
+![Case Model](https://github.com/BrandonBNguyen/CADMouse/blob/master/Images/BottomCase.PNG)
 
 After the case was designed, I modeled the lids that would be fastened to the case and enclose the wiring.
 
-![Enclosed Case Model](https://github.com/BrandonBNguyen/CADMouse/blob/master/Images/CaseWithLid.png)
+![Enclosed Case Model](https://github.com/BrandonBNguyen/CADMouse/blob/master/Images/CaseWithLid.PNG)
 
 ## Manufacturing
 
