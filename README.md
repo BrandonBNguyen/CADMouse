@@ -20,7 +20,7 @@ For the actions of rolling and zooming the view model, I selected the KY-040 rot
 
 ![Arduino Joystick Module](https://github.com/BrandonBNguyen/CADMouse/blob/master/Images/KY-040Encoder.jpg)
 
-### Board Selection
+### Microcontroller Selection
 
 From preliminary testing with an Arduino Uno (which was unable to stimulate keyboard and mouse inputs to a computer), I knew I needed to select a microcontroller that would be able to appear as a native mouse and keyboard by implementing the `Mouse.h` and `Keyboard.h` libraries. As a result, I selected the Arduino Micro, which is a small Arduino board capable of implementing these libraries.
 
