@@ -20,7 +20,7 @@ For the actions of rolling and zooming the view model, I selected the KY-040 rot
 
 ![Arduino Joystick Module](https://github.com/BrandonBNguyen/CADMouse/blob/master/Images/KY-040Encoder.jpg)
 
-### Microcontroller Selection
+### Board Selection
 
 From preliminary testing with an Arduino Uno (which was unable to stimulate keyboard and mouse inputs to a computer), I knew I needed to select a microcontroller that would be able to appear as a native mouse and keyboard by implementing the `Mouse.h` and `Keyboard.h` libraries. As a result, I selected the Arduino Micro, which is a small Arduino board capable of implementing these libraries.
 
@@ -30,15 +30,15 @@ From preliminary testing with an Arduino Uno (which was unable to stimulate keyb
 
 I started the design by importing existing CAD models of the electronic components into Solidworks and drawing  a rudimentary sketch of their placements relative to each other, being sure to take into account the clearances required of the Dupont wire connections to the sensor and board pins.
 
-![Preliminary placement sketch](https://github.com/BrandonBNguyen/CADMouse/blob/master/Images/PreliminarySketch.PNG)
+![Preliminary placement sketch](https://github.com/BrandonBNguyen/CADMouse/blob/master/Images/PreliminarySketch.png)
 
 After fully defining and determining their placements, I modeled a case that would hold all the components in place via fasteners and provide an opening at the end for the micro USB port on the Arduino Micro. 
 
-![Case Model](https://github.com/BrandonBNguyen/CADMouse/blob/master/Images/BottomCase.PNG)
+![Case Model](https://github.com/BrandonBNguyen/CADMouse/blob/master/Images/BottomCase.png)
 
 After the case was designed, I modeled the lids that would be fastened to the case and enclose the wiring.
 
-![Enclosed Case Model](https://github.com/BrandonBNguyen/CADMouse/blob/master/Images/CaseWithLid.PNG)
+![Enclosed Case Model](https://github.com/BrandonBNguyen/CADMouse/blob/master/Images/CaseWithLid.png)
 
 ## Manufacturing
 
@@ -87,6 +87,14 @@ The main `loop()`function reads data from the sensors and stimulates mouse and k
  5. If the joystick isn't being used, read input from the rotary encoder. If the rotary encoder starts moving, begin stimulating mouse and keyboard inputs to move the model. Continue moving the model while rotary encoder  is still recording movement. If the rotary encoder has not recorded movement for a specified time, stop stimulating mouse and keyboard inputs.
 
 Additionally, the code is factored in to several functions to help facilitate the tasks carried out by `loop()` and prevent repetitive code.
+
+## Attributes
+
+The links to the pre-made models used in the CAD made for this project are linked below.
+
+ - [Arduino Micro](https://grabcad.com/library/arduino-micro-1) by Andrew Whitham
+ - [HW-504 Joystick Module](https://grabcad.com/library/keyes-joystick-hw-504-1) by Barış Baylav
+ - [KY-040 Rotary Encoder](https://grabcad.com/library/ky-040-rotary-encoder-1) by ∏-∑-A
 
 ## Skills Demonstrated
 
