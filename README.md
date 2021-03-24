@@ -26,7 +26,7 @@ From preliminary testing with an Arduino Uno (which was unable to stimulate keyb
 
 ![Arduino Micro Microcontroller](https://github.com/BrandonBNguyen/CADMouse/blob/master/Images/ArduinoMicro.jpg)
 
-## CAD Design
+## CAD Model
 
 I started the design by importing existing CAD models of the electronic components into Solidworks and drawing  a rudimentary sketch of their placements relative to each other, being sure to take into account the clearances required of the Dupont wire connections to the sensor and board pins.
 
